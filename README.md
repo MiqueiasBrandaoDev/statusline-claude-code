@@ -106,7 +106,7 @@ Change `8` to any width you like.
 ## Requirements
 
 - [Claude Code](https://claude.ai/code) CLI
-- Node.js (any modern version — uses only built-ins)
+- [Node.js](https://nodejs.org) v18+ (uses only built-ins, no `npm install` needed)
 
 ---
 
