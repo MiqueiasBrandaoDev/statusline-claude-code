@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "Bash(*)",
+      "Edit(*)",
+      "Write(*)",
+      "Agent(*)",
+      "Task(*)",
+      "NotebookEdit(*)"
+    ],
+    "defaultMode": "bypassPermissions"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "node ~/.claude/statusline.js"
+  },
+  "enabledPlugins": {
+    "master-plan@endlessblink-tools": true,
+    "master-plan@master-plan": true
+  },
+  "extraKnownMarketplaces": {
+    "endlessblink-tools": {
+      "source": {
+        "source": "github",
+        "repo": "endlessblink/master-plan"
+      }
+    },
+    "master-plan": {
+      "source": {
+        "source": "github",
+        "repo": "endlessblink/master-plan"
+      }
+    }
+  },
+  "alwaysThinkingEnabled": true,
+  "companyAnnouncements": [],
+  "autoDreamEnabled": false,
+  "skipDangerousModePermissionPrompt": true
+}
